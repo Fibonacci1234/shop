@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dcf2ff;
+      }
+
+      .cls-2 {
+        fill: #0097e0;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #1b386b;
+      }
+    </style>
+  </defs>
+  <g id="Line_up" data-name="Line up" transform="translate(11337 1290)">
+    <path id="Path_5717" data-name="Path 5717" class="cls-1" d="M1103,0h-90a5,5,0,0,0-5,5V95a5,5,0,0,0,5,5h90a5,5,0,0,0,5-5V5A5,5,0,0,0,1103,0Z" transform="translate(-12345 -1290)"/>
+    <path id="Path_5718" data-name="Path 5718" class="cls-2" d="M1040,25a9,9,0,1,0,9,9A9,9,0,0,0,1040,25Zm-13,9a13,13,0,1,1,13,13A13,13,0,0,1,1027,34Z" transform="translate(-12345 -1290)"/>
+    <path id="Path_5719" data-name="Path 5719" class="cls-3" d="M1062,21h26V47h-26Zm4,4V43h18V25Z" transform="translate(-12345 -1290)"/>
+    <path id="Path_5720" data-name="Path 5720" class="cls-3" d="M1035,57a4,4,0,0,0-4,4V71a4,4,0,0,0,4,4h10a4,4,0,0,0,4-4V61a4,4,0,0,0-4-4Zm-8,4a8,8,0,0,1,8-8h10a8,8,0,0,1,8,8V71a8,8,0,0,1-8,8h-10a8,8,0,0,1-8-8Z" transform="translate(-12345 -1290)"/>
+    <path id="Path_5721" data-name="Path 5721" class="cls-4" d="M1075,59.062,1065.89,75h18.22Zm0-6.031a1.989,1.989,0,0,1,1.74,1.008l12.55,21.969A2,2,0,0,1,1087.55,79h-25.1a2,2,0,0,1-1.74-2.992l12.55-21.969A1.989,1.989,0,0,1,1075,53.031Z" transform="translate(-12345 -1290)"/>
+  </g>
+</svg>
