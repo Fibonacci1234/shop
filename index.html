@@ -1,150 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RedStore</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<div class="header">
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="images/logo.png" alt="" width="125px">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px" alt="">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
-                </ul>
-            </nav>
-            <img src="images/cart.png" width="30px" height="30px" alt="">
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
-        </div>
-        <div class="row">
-            <div class="col-2">
-                <h1>Give Your Workout<br> New Style!</h1>
-                <p>Success isn't always about greatness. It's about consistency. Consistent <br> hard work gains success. Greatness will come.</p>
-                <a href="" class="btn">Explore Now &#8594</a>
-            </div>
-            <div class="col-2">
-                <img src="images/dieuhoa-casper.png" alt="">
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> New Style!</h1>
+                    <p>Success isn't always about greatness. It's about consistency. Consistent <br> hard work gains
+                        success. Greatness will come.</p>
+                    <a href="" class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/dieuhoa-casper.png" alt="">
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="small-container">
-    <h2 class="title">Air Conditioner</h2>
-    <div class="row">
-        <div class="col-4">
-            <img src="images/Điều-hòa-Casper-SC-18TL22-1-chiều-18000BTU.jpg" alt="">
-            <h4>Điều hòa Dainkin 18000btu</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/dieuhoa-casper.png" alt="">
-            <h4>Điều hòa Panasonic 9000btu</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/dieuhoa-casper-2.png" alt="">
-            <h4>Điều hóa Casper 12000btu</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/DL.001911_FEATURE_57602.jpg" alt="">
-            <h4>Điều hóa Panasonic 9000btu</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-hafl-o"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/unnamed.jpg" alt="">
-            <h4>Điều hóa Panasonic 12000btu</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-hafl-o"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/00030305_FEATURE_59469.jpg" alt="">
-            <h4>Điều hóa Panasonic 18000btu</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-hafl-o"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/dieu-hoa-daikin-ftkq25svmv-1-org.jpg" alt="">
-            <h4>Điều hóa Daikin 18000btu</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-hafl-o"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/dan-lanh-daikin-18000btu-ftxs50-bv1.jpg" alt="">
-            <h4>Điều hóa Daikin 9000btu</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-hafl-o"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <h2 class="title">Tu Lanh</h2>
+    <div class="small-container">
+        <h2 class="title">Air Conditioner</h2>
         <div class="row">
             <div class="col-4">
-                <img src="images/tu-lanh-lg-gr-x24mc_1583463334.jpg" alt="">
-                <h4>Red Printed T-Shirt</h4>
+                <img src="images/Điều-hòa-Casper-SC-18TL22-1-chiều-18000BTU.jpg" alt="">
+                <h4>Điều hòa Dainkin 18000btu</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -155,8 +61,8 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/tulanh-lg.png" alt="">
-                <h4>Red Printed T-Shirt</h4>
+                <img src="images/dieuhoa-casper.png" alt="">
+                <h4>Điều hòa Panasonic 9000btu</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -167,8 +73,8 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product_16887_1.png" alt="">
-                <h4>Red Printed T-Shirt</h4>
+                <img src="images/dieuhoa-casper-2.png" alt="">
+                <h4>Điều hóa Casper 12000btu</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -179,8 +85,8 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/tu-lanh-samsung-rt19m300bgs-sv-1-300x300.png" alt="">
-                <h4>Red Printed T-Shirt</h4>
+                <img src="images/DL.001911_FEATURE_57602.jpg" alt="">
+                <h4>Điều hóa Panasonic 9000btu</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -190,9 +96,58 @@
                 </div>
                 <p>$50.00</p>
             </div>
+            <div class="col-4">
+                <img src="images/unnamed.jpg" alt="">
+                <h4>Điều hóa Panasonic 12000btu</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-hafl-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/00030305_FEATURE_59469.jpg" alt="">
+                <h4>Điều hóa Panasonic 18000btu</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-hafl-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/dieu-hoa-daikin-ftkq25svmv-1-org.jpg" alt="">
+                <h4>Điều hóa Daikin 18000btu</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-hafl-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/dan-lanh-daikin-18000btu-ftxs50-bv1.jpg" alt="">
+                <h4>Điều hóa Daikin 9000btu</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-hafl-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <h2 class="title">Tu Lanh</h2>
             <div class="row">
                 <div class="col-4">
-                    <img src="images/10031742-tu-lanh-sharp-inverter-342l-sj-a346e-sl-1.jpg" alt="">
+                    <img src="images/tu-lanh-lg-gr-x24mc_1583463334.jpg" alt="">
                     <h4>Red Printed T-Shirt</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -204,7 +159,7 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-4">
-                    <img src="images/tu-lanh-bosch-KAD92SB30-1-1.jpg" alt="">
+                    <img src="images/tulanh-lg.png" alt="">
                     <h4>Red Printed T-Shirt</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -216,7 +171,7 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-4">
-                    <img src="images/Tủ-lạnh-Hitachi-R-WB640VGV0D-GMG-inverter-569-lít.jpg" alt="">
+                    <img src="images/product_16887_1.png" alt="">
                     <h4>Red Printed T-Shirt</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -228,8 +183,8 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-4">
-                    <img src="images/539.16.230_451a1c89-c0ac-47a1-a1f5-e004c608cde4.jpg" alt="">
-                    <h4>Tu lanh HAPALE</h4>
+                    <img src="images/tu-lanh-samsung-rt19m300bgs-sv-1-300x300.png" alt="">
+                    <h4>Red Printed T-Shirt</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -239,60 +194,108 @@
                     </div>
                     <p>$50.00</p>
                 </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/10031742-tu-lanh-sharp-inverter-342l-sj-a346e-sl-1.jpg" alt="">
+                        <h4>Red Printed T-Shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/tu-lanh-bosch-KAD92SB30-1-1.jpg" alt="">
+                        <h4>Red Printed T-Shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/Tủ-lạnh-Hitachi-R-WB640VGV0D-GMG-inverter-569-lít.jpg" alt="">
+                        <h4>Red Printed T-Shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/539.16.230_451a1c89-c0ac-47a1-a1f5-e004c608cde4.jpg" alt="">
+                        <h4>Tu lanh HAPALE</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-hafl-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <h2 class="title">May giat</h2>
-    <div class="row">
-        <div class="col-4">
-            <img src="images/electrolux-ewf9025bqsa-300x300.jpg" alt="">
-            <h4>Red Printed T-Shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/may-giat-lg-inverter-10-5-kg-fv1450s2b-a.jpg" alt="">
-            <h4>Red Printed T-Shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/may-giat-lg-fc1408s3e-anh-thuc-te-1.jpg" alt="">
-            <h4>Red Printed T-Shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/may-giat-samsung-ww80k5410us-sv-1-7-org.jpg" alt="">
-            <h4>Red Printed T-Shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-hafl-o"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
+        <h2 class="title">May giat</h2>
         <div class="row">
+            <div class="col-4">
+                <img src="images/electrolux-ewf9025bqsa-300x300.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/may-giat-lg-inverter-10-5-kg-fv1450s2b-a.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/may-giat-lg-fc1408s3e-anh-thuc-te-1.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/may-giat-samsung-ww80k5410us-sv-1-7-org.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-hafl-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
             <div class="col-4">
                 <img src="images/10k54eouw.jpg" alt="">
                 <h4>Red Printed T-Shirt</h4>
@@ -304,7 +307,7 @@
                     <i class="fa fa-star-o"></i>
                 </div>
                 <p>$50.00</p>
-            </div>     
+            </div>
             <div class="col-4">
                 <img src="images/10030664-MÁY-GIẶT-ELECTROLUX-11-KG-EWF14113-01.jpg" alt="">
                 <h4>Red Printed T-Shirt</h4>
@@ -341,34 +344,146 @@
                 </div>
                 <p>$50.00</p>
             </div>
+            <h2 class="title">Ti vi</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/tivi-casper.png" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/tivi-samsung.png" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/tivi-sony.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/tivi-tcl.png" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-hafl-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/tivi-samsung1.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>     
+            <div class="col-4">
+                <img src="images/smart-tivi-75-inch-casper.png" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/smart-tivi-lg-4k-55-inch-55sm8100pta-2019.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/up7750-550x340.jpg" alt="">
+                <h4>Tu lanh HAPALE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-hafl-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
         </div>
     </div>
-</div>
+    </div>
+
 
     </div>
- 
-
-
-
-
-    
     <div class="brands">
         <div class="small-container">
             <div class="row">
                 <div class="col-5">
-                    <img src="images/logo-godrej.png" alt="">
+                    <img src="images/800px-LG_logo_(2015).svg.png" alt="">
                 </div>
                 <div class="col-5">
-                    <img src="images/logo-oppo.png" alt="">
+                    <img src="images/logo-samsung-2.jpg" alt="">
                 </div>
                 <div class="col-5">
-                    <img src="images/logo-coca-cola.png" alt="">
+                    <img src="images/logo-sony.png" alt="">
                 </div>
                 <div class="col-5">
-                    <img src="images/logo-paypal.png" alt="">
+                    <img src="images/LOGO-17-09-2020-16.png" alt="">
                 </div>
                 <div class="col-5">
-                    <img src="images/logo-philips.png" alt="">
+                    <img src="images/electrolux1.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-daikin-1.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-panasonic.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/Hitachi-Logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/1280px-Logo_of_the_Sharp_Corporation.svg.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/bosch.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/1200px-Logo_of_the_TCL_Corporation.svg.png" alt="">
                 </div>
             </div>
         </div>
@@ -387,7 +502,8 @@
                 </div>
                 <div class="footer-col-2">
                     <img src="images/logo-white.png" alt="">
-                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.
+                    </p>
                 </div>
                 <div class="footer-col-3">
                     <h3>Useful Links</h3>
@@ -415,4 +531,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
